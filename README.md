@@ -1,17 +1,81 @@
-# weather_app
+# Weather App (Flutter)
 
-A new Flutter project.
+A modern, clean and responsive Weather Application built using Flutter.  
+It provides real-time weather updates using the OpenWeather API with dynamic animations and GPS-based location detection.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔍 Search weather by city name  
+- 📍 Get weather using current GPS location  
+- 🌤️ Dynamic Lottie animations (Sunny, Rain, Cloud, Snow, Night)  
+- 🌡️ Temperature in Celsius  
+- 💧 Humidity & weather conditions display  
+- 🌙 Automatic Day & Night theme switching  
+- ⚡ Clean, modern and responsive UI  
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+
+- Flutter (Dart)  
+- OpenWeather API  
+- Geolocator (GPS)  
+- HTTP Package  
+- Lottie Animations  
+
+---
+
+## Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/MamoonaAzam/weather-app.git
+
+Go to project folder:
+
+cd weather-app
+
+Install dependencies:
+
+flutter pub get
+
+Run the app:
+
+flutter run
+
+---
+
+## Environment Variables (API Key Setup)
+
+This project uses OpenWeather API.
+
+Create a `.env` file in the root directory:
+
+API_KEY=your_openweather_api_key_here
+
+Load it using `flutter_dotenv` in your Flutter project.
+
+---
+
+## Project Structure
+
+lib/
+ ├── main.dart
+ ├── models/
+ ├── pages/
+ ├── services/
+ └── widgets/
+
+---
+
+## Support
+
+If you like this project, please give it a ⭐ on GitHub.
+
+---
+
+## License
+
+This project is for educational purposes only.
